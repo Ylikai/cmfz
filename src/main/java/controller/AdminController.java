@@ -18,6 +18,7 @@ public class AdminController {
         Admin adm=adminService.query(admin);
         if(adm!=null){
             System.out.println(adm);
+            System.out.println(admin);
             return true;
         }else{
             return false;
